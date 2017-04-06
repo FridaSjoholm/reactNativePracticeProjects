@@ -1,15 +1,21 @@
 //Import libraries
 import React from 'react';
 import { Text } from 'react-native';
-//Make Component
 
+//Make Component
 const Header = () => {
+  const { textStyle } = styles;
   return (
-    <Text>
-      Albums !
+    <Text style={textStyle}>
+      Albums 
     </Text>
   );
 };
-//Make Component available
 
+const styles = {
+  textStyle:{
+    fontSize: 40
+  }
+};
+//Make Component available
 export default Header;
