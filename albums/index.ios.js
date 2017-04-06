@@ -1,12 +1,12 @@
 // code for ios
 //Import libraries
 import React from 'react';
-import { Text, AppRegistry } from 'react-native';
+import { AppRegistry } from 'react-native';
 import Header from './src/components/header';
 //Create Component
 const App = () => {
   return (
-    <Header />
+    <Header headerText={'Albums'} />
   );
 };
 //Render it to device
