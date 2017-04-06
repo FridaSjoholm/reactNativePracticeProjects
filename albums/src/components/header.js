@@ -16,12 +16,19 @@ const Header = () => {
 
 const styles = {
   viewStyle: {
-    backgroundColor: '#edd7e0',
+    backgroundColor: '#f2e1e8',
     justifyContent: 'center',
-    alignItems: 'center'
+    alignItems: 'center',
+    height: 60,
+    paddingTop: 15,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.2,
+    elevation: 2,
+    position: 'relative'
   },
   textStyle: {
-    fontSize: 40
+    fontSize: 25
   }
 };
 //Make Component available
