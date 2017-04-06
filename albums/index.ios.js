@@ -2,13 +2,11 @@
 //Import libraries
 import React from 'react';
 import { Text, AppRegistry } from 'react-native';
-
+import Header from './src/components/header';
 //Create Component
 const App = () => {
   return (
-    <Text>
-      A lil bit o text
-    </Text>
+    <Header />
   );
 };
 //Render it to device
