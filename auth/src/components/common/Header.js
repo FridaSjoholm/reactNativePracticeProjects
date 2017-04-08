@@ -34,4 +34,4 @@ const styles = {
   }
 };
 //Make Component available
-export default Header;
+export { Header} ;
