@@ -11,7 +11,7 @@ import * as actions from '../actions';
 
 class ListItem extends Component {
   componentWillUpdate() {
-    LayoutAnimation.linear();
+    LayoutAnimation.spring();
   }
   renderDescription() {
     const { library, expanded } = this.props;
