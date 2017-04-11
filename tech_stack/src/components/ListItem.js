@@ -9,8 +9,6 @@ class ListItem extends Component {
     const { library, selectedLibraryId } = this.props;
 
     if (library.id === selectedLibraryId) {
-      console.log(library.id);
-      console.log(library.description);
       return (
         <Text>
           {library.description}
@@ -22,8 +20,7 @@ class ListItem extends Component {
   render() {
     const { titleStyle } = styles;
     const { id, title } = this.props.library;
-    console.log(this.props);
-
+    
     return (
       <TouchableWithoutFeedback
         onPress={() => this.props.selectLibrary(id)}
