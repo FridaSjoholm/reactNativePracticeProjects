@@ -7,6 +7,7 @@ import { Card, CardSection, Input, Button } from './common';
 class EmployeeCreate extends Component {
   onButtonpress() {
     const { name, phone, shift } = this.props;
+
     this.props.employeeCreate({ name, phone, shift: shift || 'Monday' });
   }
 
@@ -74,5 +75,5 @@ const mapStateToProps = (state) => {
 };
 
 export default connect(mapStateToProps, {
-   employeeUpdate, EmployeeCreate
+   employeeUpdate, employeeCreate
  })(EmployeeCreate);
