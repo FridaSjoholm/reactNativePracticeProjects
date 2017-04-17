@@ -22,3 +22,9 @@ App that lets you log in and log out. If you are not a user already you can beco
 App that uses redux to store and present information about different technologies. Presents descriptions on tap using animations
 
 ![demonstration](demos/Tech_stack_demo.gif)
+
+## Manager
+
+App that lets user login to manage their employees. The app uses redux and firebase as a database. The manager can add new employees, fire employees, text them their shift and edit their information.
+
+![demonstration](demos/manager_demo.gif)
