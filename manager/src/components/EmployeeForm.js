@@ -26,10 +26,12 @@ class EmployeeForm extends Component {
           />
         </CardSection>
 
-        <CardSection style={{ flexDirection: 'column' }}>
           <Text style={styles.pickerTextStyle}>
+
             Select shift
           </Text>
+
+        <CardSection>
           <Picker
             selectedValue={this.props.shift}
             onValueChange={value => this.props.employeeUpdate({ prop: 'shift', value })}
